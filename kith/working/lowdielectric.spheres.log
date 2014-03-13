@@ -1,0 +1,23 @@
+There are 17 ligand heavy atoms
+Ligand center of coords (x y z): -9.75835294117647 4.90758823529412 35.8812941176471
+useligsph flag does not exist.
+Starting number of spheres from all_spheres.sph cluster 0: 1095
+FINISHED READING IN FILE all_spheres.sph CLUSTER 0 
+Number of sphere points after cutting off spheres too far from center of ligand (12 angstroms): 851
+Number of spheres after removing too far (>7 angstroms) and too close to receptor (<1.2 angstroms): 851
+Number of spheres polar: 129, nonpolar: 332, out of current total: 851
+Extents of grid to search are X1 X2 Y1 Y2 Z1 Z2: -21.68449 2.16996 -6.98982 16.85159 23.91296 47.51974
+Number of spheres after removing spheres too close to each other (approximately <1.5 angstroms): 325
+Number of spheres after second pass removing spheres absolutely <0.8 from each other: 268
+No crystallographic spheres present, so determining sphere nearest center of ligand (x y z): -9.75835294117647 4.90758823529412 35.8812941176471
+Center point: 120 xyz: -9.97119 5.13220 35.77330
+After continuity checking, number of spheres is: 157
+Spheres center of coords (x y z): -14.4965325477707 4.14437388535032 31.3524459872612
+Not crystallographic ligand, so keeping spheres closest to center of receptor, center of ligand, and center of spheres
+Receptor center of coords (x y z): 9.68508951013078 0.0643568863811209 20.0640610412926
+Average weighted-distance for final elimination is: 42.4569461269705
+Final number of output spheres is: 120
+Number of polar spheres: 15
+Number of nonpolar spheres: 43
+Number of spheres that are near neither polar nor nonpolar receptor atoms: 62
+Final number of spheres that are from crystallographic ligand: 0
