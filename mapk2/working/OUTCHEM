@@ -1,0 +1,27 @@
+ receptor pdb file:
+rec.crg.pdb                                                                     
+ receptor parameters will be read from:
+prot.table.ambcrg.ambH                                                          
+ van der Waals parameter file:
+vdw.parms.amb.mindock                                                           
+ input box file defining grid location:
+box                                                                             
+ box center coordinates [x y z]:
+    37.78300       5.733000       16.97200    
+ box x-dimension =    27.10400    
+ box y-dimension =    26.04300    
+ box z-dimension =    31.92100    
+ grid spacing in angstroms
+   0.3300000    
+ grid points per side [x y z]:
+           84          80          98
+ total number of grid points =       658560
+ a distance-dependent dielectric will be used
+the dielectric function will be multiplied by   4.00
+ cutoff distance for energy calculations:
+    10.00000    
+ distances defining bumps with receptor atoms:
+receptor polar atoms  2.30
+receptor carbon atoms  2.60
+ output grid prefix name:
+vdw                                                                             
