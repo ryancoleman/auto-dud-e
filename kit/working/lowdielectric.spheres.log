@@ -1,0 +1,46 @@
+Argument "-7.467-101.500" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 246.
+Argument "-7.818-102.641" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-8.531-102.184" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-8.781-100.992" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-8.875-103.113" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-9.543-102.756" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-8.666-101.848" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-7.457-102.059" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-9.792-104.107" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-9.757-105.101" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-8.733-104.570" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-9.277-100.834" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-10.399-100.251" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-10.248-100.621" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-7.853-101.304" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-8.774-102.209" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-6.746-101.809" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-8.598-103.575" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-6.560-103.172" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-7.490-104.051" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-7.308-105.410" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-6.464-105.586" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+Argument "-6.592-100.013" isn't numeric in subtraction (-) at /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl line 248.
+There are 22 ligand heavy atoms
+Ligand center of coords (x y z): 34.1654545454546 -3.62772727272727 -78.3083181818182
+useligsph flag does not exist.
+Starting number of spheres from all_spheres.sph cluster 0: 847
+FINISHED READING IN FILE all_spheres.sph CLUSTER 0 
+Number of sphere points after cutting off spheres too far from center of ligand (12 angstroms): 600
+Number of spheres after removing too far (>7 angstroms) and too close to receptor (<1.2 angstroms): 595
+Number of spheres polar: 224, nonpolar: 254, out of current total: 595
+Extents of grid to search are X1 X2 Y1 Y2 Z1 Z2: 22.22082 46.10699 -15.61623 8.32435 -90.04554 -66.93943
+Number of spheres after removing spheres too close to each other (approximately <1.5 angstroms): 217
+Number of spheres after second pass removing spheres absolutely <0.8 from each other: 175
+No crystallographic spheres present, so determining sphere nearest center of ligand (x y z): 34.1654545454546 -3.62772727272727 -78.3083181818182
+Center point: 151 xyz: 34.04588 -3.96207 -78.11487
+After continuity checking, number of spheres is: 159
+Spheres center of coords (x y z): 31.7943195597484 -2.22680761006289 -77.9560172327044
+Not crystallographic ligand, so keeping spheres closest to center of receptor, center of ligand, and center of spheres
+Receptor center of coords (x y z): 42.1712078163772 -8.55784553349877 -70.756261166253
+Average weighted-distance for final elimination is: 31.922348993251
+Final number of output spheres is: 120
+Number of polar spheres: 52
+Number of nonpolar spheres: 44
+Number of spheres that are near neither polar nor nonpolar receptor atoms: 24
+Final number of spheres that are from crystallographic ligand: 0
