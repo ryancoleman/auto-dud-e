@@ -1,0 +1,101 @@
+    name of input pdb file: rec.crg.pdb                                                                     
+    name of output contact grid file: ligand.desolv.hydrogen                                                          
+    atomic radii (A):
+         1. for O N C S P Other [1.4 1.3 1.7 2.22.2 1.8]?
+    1.600000       1.650000       1.900000       1.900000       1.900000    
+    1.600000    
+         2. for water probe (exclusion) [1.4]?    1.400000    
+    number of grid points/angstrom?(1-4)            2
+ pdb file of limiting box:
+ box                                                                             
+ assumed ligand atomic radius (A):   1.000000    
+ maximum receptor atomic radius (A):   1.900000    
+ grid resolution (A):   0.5000000    
+ integration cutoff (A):   10.00000    
+ receptor minimum and maximum x y z (A):
+    2.926000      -5.798000       16.19600    
+    63.85800       48.44100       80.25700    
+ box minimum and maximum x y z (A):
+    21.89400       19.55600       16.33400    
+    46.65900       52.59500       49.15900    
+ dielectric grid expansion size (points/edge)
+           20          20           7
+           20           0          20
+ dielectric grid minimum and maximum x y z (A):
+    11.89400       9.556000       12.83400    
+    56.65900       52.59500       59.15900    
+ solvation grid x, y, z dimensions:          49          66          65
+ finished receptor accessible surface
+ finished initializing dielectric grid
+ finished creating receptor molecular surface grid
+ dV is  9.9471835E-03
+ Precalculating solvmap lookup table
+ Starting solvmap calculation.
+   1 /   66 the way there!
+   2 /   66 the way there!
+   3 /   66 the way there!
+   4 /   66 the way there!
+   5 /   66 the way there!
+   6 /   66 the way there!
+   7 /   66 the way there!
+   8 /   66 the way there!
+   9 /   66 the way there!
+  10 /   66 the way there!
+  11 /   66 the way there!
+  12 /   66 the way there!
+  13 /   66 the way there!
+  14 /   66 the way there!
+  15 /   66 the way there!
+  16 /   66 the way there!
+  17 /   66 the way there!
+  18 /   66 the way there!
+  19 /   66 the way there!
+  20 /   66 the way there!
+  21 /   66 the way there!
+  22 /   66 the way there!
+  23 /   66 the way there!
+  24 /   66 the way there!
+  25 /   66 the way there!
+  26 /   66 the way there!
+  27 /   66 the way there!
+  28 /   66 the way there!
+  29 /   66 the way there!
+  30 /   66 the way there!
+  31 /   66 the way there!
+  32 /   66 the way there!
+  33 /   66 the way there!
+  34 /   66 the way there!
+  35 /   66 the way there!
+  36 /   66 the way there!
+  37 /   66 the way there!
+  38 /   66 the way there!
+  39 /   66 the way there!
+  40 /   66 the way there!
+  41 /   66 the way there!
+  42 /   66 the way there!
+  43 /   66 the way there!
+  44 /   66 the way there!
+  45 /   66 the way there!
+  46 /   66 the way there!
+  47 /   66 the way there!
+  48 /   66 the way there!
+  49 /   66 the way there!
+  50 /   66 the way there!
+  51 /   66 the way there!
+  52 /   66 the way there!
+  53 /   66 the way there!
+  54 /   66 the way there!
+  55 /   66 the way there!
+  56 /   66 the way there!
+  57 /   66 the way there!
+  58 /   66 the way there!
+  59 /   66 the way there!
+  60 /   66 the way there!
+  61 /   66 the way there!
+  62 /   66 the way there!
+  63 /   66 the way there!
+  64 /   66 the way there!
+  65 /   66 the way there!
+  66 /   66 the way there!
+ successful completion
+elapsed time (sec):      518.5600

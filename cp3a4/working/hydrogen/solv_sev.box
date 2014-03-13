@@ -1,0 +1,19 @@
+HEADER    CORNERS OF BOX   21.762 -31.313  15.205  52.453  -0.512  45.919
+REMARK    CENTER (X Y Z)   37.107 -15.912  30.562
+REMARK    DIMENSIONS (X Y Z)   30.691  30.801  30.714
+ATOM      1  DUA BOX     1      21.762 -31.313  15.205
+ATOM      2  DUB BOX     1      52.453 -31.313  15.205
+ATOM      3  DUC BOX     1      52.453 -31.313  45.919
+ATOM      4  DUD BOX     1      21.762 -31.313  45.919
+ATOM      5  DUE BOX     1      21.762  -0.512  15.205
+ATOM      6  DUF BOX     1      52.453  -0.512  15.205
+ATOM      7  DUG BOX     1      52.453  -0.512  45.919
+ATOM      8  DUH BOX     1      21.762  -0.512  45.919
+CONECT    1    2    4    5
+CONECT    2    1    3    6
+CONECT    3    2    4    7
+CONECT    4    1    3    8
+CONECT    5    1    6    8
+CONECT    6    2    5    7
+CONECT    7    3    6    8
+CONECT    8    4    5    7
