@@ -1,0 +1,43 @@
+reduce: version 3.14 08/21/2008, Copyright 1997-2008, J. Michael Word
+Processing file: "rec.pdb"
+Database of HETATM connections: "reduce_wwPDB_het_dict.txt"
+VDW dot density = 16/A^2
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building His ring NH Hydrogens.
+Building or keeping OH & SH Hydrogens.
+Processing Met methyls.
+ERROR CTab(reduce_wwPDB_het_dict.txt): could not open
+SKIPPED H( A 320 HIS HE2 ): A 320 HIS NE2  bonds- A 503  ZNZN    (H bumps)
+*WARNING*: Res " ZN" not in HETATM Connection Database. Hydrogens not added.
+ Singles(size 16): A 253 SER OG  : A 255 MET CE  : A 261 SER OG  : A 262 MET CE  
+  : A 265 TYR OH  : A 271 THR OG1 : A 274 THR OG1 : A 277 TYR OH  : A 278 SER OG  
+  : A 290 TYR OH  : A 308 THR OG1 : A 313 SER OG  : A 324 TYR OH  : A 329 TYR OH  
+  : A 338 TYR OH  : A 345 THR OG1 
+ orientation 1: A 253 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 4: A 255 MET CE  :methyl -127: bump=-0.005, HB=0.000, total=-0.005
+ orientation 3: A 261 SER OG  :   rot  -70: bump=-0.027, HB=1.251, total=1.223
+ orientation 2: A 262 MET CE  :methyl -167: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 265 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 4: A 271 THR OG1 :   rot  -71: bump=-0.116, HB=1.932, total=1.816
+ orientation 1: A 274 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 277 TYR OH  :   rot  180: bump=-0.208, HB=0.000, total=-0.208
+ orientation 1: A 278 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 290 TYR OH  :   rot  180: bump=-0.009, HB=0.324, total=0.315
+ orientation 1: A 308 THR OG1 :   rot  180: bump=-0.074, HB=0.008, total=-0.066
+ orientation 1: A 313 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 5: A 324 TYR OH  :   rot   24: bump=-0.137, HB=1.444, total=1.307
+ orientation 2: A 329 TYR OH  :   rot  169: bump=-0.069, HB=1.352, total=1.284
+ orientation 4: A 338 TYR OH  :   rot   60: bump=-0.004, HB=0.000, total=-0.004
+ orientation 1: A 345 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+Found 0 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 721 hydrogens (0 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 16 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
