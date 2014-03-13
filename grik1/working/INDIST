@@ -1,0 +1,15 @@
+rec.crg.pdb
+distmap
+2.3
+2.6
+4.5
+3
+box
+EOI
+# receptor file
+# output grid file
+# closest allowed contact to receptor N or O atoms
+# closest all. con to receptor all other atoms
+# furthest contact for scoring
+# grid resolution
+# box file

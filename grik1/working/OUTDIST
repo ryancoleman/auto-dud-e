@@ -1,0 +1,17 @@
+    name of input pdb file: rec.crg.pdb                                                                     
+    name of output contact grid file: distmap                                                                         
+ BLEEEEEEEEEEEE
+    bad contact distance:
+         1. for polar atoms [2.4]?    2.300000    
+         2. for non-polar atoms [2.8]?    2.600000    
+    scoring distance cutoff [4.5]?    4.500000    
+    number of grid points per angstrom?(1-4)            3
+ pdb file of limiting box:
+ box                                                                             
+ grid resolution:   0.3333333    
+ maximum and minimum x y z:
+    52.38400       20.53900       20.39500    
+    24.08100      -8.953000      -7.342000    
+ number of nonhydrogen atoms =          778
+ grid x, y, z dimensions:          85          89          83
+ successful completion
