@@ -1,0 +1,42 @@
+! default extended atom radii based loosely
+! on mike connolly's MS program- note H's are 0
+atom__res_radius_
+c           1.90
+c     sph   1.90
+a           1.75
+o           1.60
+n           1.65
+h           0.00
+p           1.90
+s           1.90
+br          1.90     #guessing radii of these atom types, rgc 7/2012
+f           1.50     #guessing radii of these atom types, rgc 7/2012
+i           1.90     #guessing radii of these atom types, rgc 7/2012
+cl          1.80     #guessing radii of these atom types, rgc 7/2012
+mg          1.86
+m5          1.90
+mn          1.34
+ca          1.86
+cu          1.25
+zn          1.34
+fe          1.30
+lp1         0.00
+lp2         0.00
+q           2.50
+s12   sph   1.20
+s13   sph   1.30
+s14   sph   1.40
+s15   sph   1.50
+s16   sph   1.60
+s17   sph   1.70
+s18   sph   1.80
+s19   sph   1.90
+s20   sph   2.00
+s21   sph   2.10
+s22   sph   2.20
+s23   sph   2.30
+s24   sph   2.40
+s25   sph   2.50
+s30   sph   3.00
+s35   sph   3.50
+
