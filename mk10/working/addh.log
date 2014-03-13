@@ -1,0 +1,135 @@
+reduce: version 3.14 08/21/2008, Copyright 1997-2008, J. Michael Word
+Processing file: "rec.pdb"
+Database of HETATM connections: "reduce_wwPDB_het_dict.txt"
+VDW dot density = 16/A^2
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building His ring NH Hydrogens.
+Building or keeping OH & SH Hydrogens.
+Processing Met methyls.
+ERROR CTab(reduce_wwPDB_het_dict.txt): could not open
+*WARNING*: Residues ALA 211  and SER 217  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ALA 211  and SER 217  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues PRO 373  and ARG 383  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues PRO 373  and ARG 383  in chain  A appear unbonded 
+            and will be treated as a chain break
+ Singles(size 60): A  49 TYR OH  : A  56 SER OG  : A  57 THR OG1 : A  64 TYR OH  
+  : A  72 SER OG  : A  79 CYS SG  : A  82 TYR OH  : A  96 SER OG  : A 103 THR OG1 
+  : A 109 TYR OH  : A 117 CYS SG  : A 125 SER OG  : A 131 THR OG1 : A 135 THR OG1 
+  : A 143 TYR OH  : A 154 CYS SG  : A 159 MET CE  : A 166 MET CE  : A 167 SER OG  
+  : A 168 TYR OH  : A 171 TYR OH  : A 173 MET CE  : A 175 CYS SG  : A 182 SER OG  
+  : A 193 SER OG  : A 199 SER OG  : A 201 CYS SG  : A 217 SER OG  : A 219 MET CE  
+  : A 220 MET CE  : A 221 THR OG1 : A 223 TYR OH  : A 226 THR OG1 : A 228 TYR OH  
+  : A 229 TYR OH  : A 238 MET CE  : A 240 TYR OH  : A 248 SER OG  : A 251 CYS SG  
+  : A 253 MET CE  : A 256 MET CE  : A 268 TYR OH  : A 281 THR OG1 : A 283 CYS SG  
+  : A 287 MET CE  : A 293 THR OG1 : A 297 TYR OH  : A 304 TYR OH  : A 308 THR OG1 
+  : A 316 SER OG  : A 322 SER OG  : A 330 SER OG  : A 337 SER OG  : A 339 MET CE  
+  : A 349 SER OG  : A 358 TYR OH  : A 363 TYR OH  : A 386 THR OG1 : A 395 TYR OH  
+  : A 399 MET CE  
+ Set 1 (size 2): A 202 THR OG1 : A 149 MET CE  
+ Set 2 (size 2): A 115 MET CE  : A 146 MET CE  
+ Set 3 (size 2): A  59 THR OG1 : A  50 SER OG  
+ orientation 5: A  49 TYR OH  :   rot   28: bump=-0.068, HB=1.308, total=1.239
+ orientation 5: A  56 SER OG  :   rot  -46: bump=0.000, HB=1.042, total=1.042
+ orientation 2: A  57 THR OG1 :   rot  -27: bump=-0.450, HB=1.474, total=1.024
+ orientation 4: A  64 TYR OH  :   rot   70: bump=0.000, HB=0.597, total=0.597
+ orientation 2: A  72 SER OG  :   rot   20: bump=-0.006, HB=0.164, total=0.158
+ orientation 1: A  79 CYS SG  :   rot  107: bump=-0.595, HB=0.000, total=-0.595
+ orientation 4: A  82 TYR OH  :   rot   31: bump=-0.091, HB=1.328, total=1.237
+ orientation 1: A  96 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 103 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 109 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 117 CYS SG  :   rot   74: bump=0.000, HB=0.787, total=0.787
+ orientation 2: A 125 SER OG  :   rot   81: bump=0.000, HB=0.008, total=0.008
+ orientation 2: A 131 THR OG1 :   rot   88: bump=0.000, HB=0.731, total=0.731
+ orientation 3: A 135 THR OG1 :   rot -102: bump=-0.088, HB=1.450, total=1.361
+ orientation 5: A 143 TYR OH  :   rot   15: bump=-0.068, HB=0.605, total=0.537
+ orientation 1: A 154 CYS SG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 159 MET CE  :methyl  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 166 MET CE  :methyl -146: bump=-2.621, HB=0.000, total=-2.621, BADBUMP
+ orientation 5: A 167 SER OG  :   rot  -80: bump=-0.029, HB=1.700, total=1.671
+ orientation 1: A 168 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 3: A 171 TYR OH  :   rot  155: bump=-0.325, HB=1.368, total=1.043
+ orientation 1: A 173 MET CE  :methyl  172: bump=-1.320, HB=0.000, total=-1.320
+ orientation 2: A 175 CYS SG  :   rot  149: bump=-0.921, HB=0.095, total=-0.826
+ orientation 4: A 182 SER OG  :   rot  -58: bump=-1.407, HB=1.332, total=-0.075
+ orientation 1: A 193 SER OG  :   rot  180: bump=-0.042, HB=0.000, total=-0.042
+ orientation 2: A 199 SER OG  :   rot   68: bump=0.000, HB=1.125, total=1.125
+ orientation 3: A 201 CYS SG  :   rot -170: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 217 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 219 MET CE  :methyl -163: bump=-0.139, HB=0.000, total=-0.139
+ orientation 2: A 220 MET CE  :methyl -173: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 221 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 223 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 226 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 228 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 229 TYR OH  :   rot  176: bump=-0.316, HB=1.444, total=1.128
+ orientation 4: A 238 MET CE  :methyl -143: bump=-14.272, HB=0.000, total=-14.272, BADBUMP
+ orientation 1: A 240 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 248 SER OG  :   rot  -42: bump=-0.036, HB=1.326, total=1.290
+ orientation 3: A 251 CYS SG  :   rot  108: bump=-0.129, HB=0.311, total=0.181
+ orientation 1: A 253 MET CE  :methyl -165: bump=-0.294, HB=0.000, total=-0.294
+ orientation 1: A 256 MET CE  :methyl  165: bump=-0.343, HB=0.000, total=-0.343
+ orientation 1: A 268 TYR OH  :   rot  180: bump=0.000, HB=0.138, total=0.138
+ orientation 1: A 281 THR OG1 :   rot -100: bump=-0.095, HB=0.648, total=0.553
+ orientation 1: A 283 CYS SG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 287 MET CE  :methyl -154: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 293 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 297 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 304 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 308 THR OG1 :   rot  180: bump=-0.175, HB=0.190, total=0.015
+ orientation 1: A 316 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 322 SER OG  :   rot  180: bump=0.000, HB=0.112, total=0.112
+ orientation 2: A 330 SER OG  :   rot  -56: bump=-0.013, HB=0.801, total=0.788
+ orientation 4: A 337 SER OG  :   rot  -61: bump=-0.154, HB=1.412, total=1.258
+ orientation 3: A 339 MET CE  :methyl  163: bump=-7.852, HB=0.000, total=-7.852, BADBUMP
+ orientation 1: A 349 SER OG  :   rot  180: bump=0.000, HB=0.202, total=0.202
+ orientation 1: A 358 TYR OH  :   rot  180: bump=0.000, HB=0.723, total=0.723
+ orientation 11: A 363 TYR OH  :   rot -171: bump=-0.035, HB=1.304, total=1.270
+ orientation 1: A 386 THR OG1 :   rot  180: bump=-1.287, HB=0.016, total=-1.270
+ orientation 1: A 395 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 399 MET CE  :methyl  169: bump=-6.013, HB=0.000, total=-6.013, BADBUMP
+
+ Processing set: A 202 THR OG1 [5]: A 149 MET CE  [4]
+ permutations: 20
+ Computing dot scores
+ Num optimizations problems to be solved for this clique: 1
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+ Optimal score following low resolution optimization: -2.407
+> : -2.407       > : -2.395       > : -2.275       > : -2.275       > : -2.275       > : -2.275       > : -2.275       > : -2.275       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.268       > : -2.241       > : -2.241       > : -2.241       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       > : -2.140       
+ Optimal score following high resolution, local optimization: -2.140
+
+ Processing set: A 115 MET CE  [4]: A 146 MET CE  [4]
+ permutations: 16
+ Computing dot scores
+ Num optimizations problems to be solved for this clique: 1
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+ Optimal score following low resolution optimization: -1.034
+> : -2.701       > : -2.625       > : -2.593       > : -2.517       > : -2.444       > : -2.374       > : -2.306       > : -2.235       > : -2.164       > : -2.091       > : -2.004       > : -1.928       > : -1.859       > : -1.792       > : -1.725       > : -1.644       > : -1.579       > : -1.547       > : -1.495       > : -1.451       > : -1.399       > : -1.353       > : -1.319       > : -1.299       > : -1.261       > : -1.206       > : -1.167       > : -1.128       > : -1.104       > : -1.070       > : -1.034       > : -1.000       > : -0.963       > : -0.959       > : -0.921       > : -0.865       > : -0.829       > : -0.798       > : -0.767       > : -0.738       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -0.724       > : -1.927       > : -1.904       > : -1.877       > : -1.846       > : -1.812       > : -1.777       > : -1.736       > : -1.703       > : -1.658       > : -1.612       > : -1.564       > : -1.517       > : -1.467       > : -1.412       > : -1.353       > : -1.295       > : -1.241       > : -1.189       > : -1.137       > : -1.082       > : -1.033       > : -0.985       > : -0.940       > : -0.909       > : -0.866       > : -0.826       > : -0.787       > : -0.756       > : -0.738       > : -0.727       > : -0.724       > : -0.722       > : -0.718       > : -0.716       > : -0.716       > : -0.715       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       > : -0.714       
+ Optimal score following high resolution, local optimization: -0.714
+
+ Processing set: A  59 THR OG1 [2]: A  50 SER OG  [2]
+ permutations: 4
+ Computing dot scores
+ Num optimizations problems to be solved for this clique: 1
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+ Optimal score following low resolution optimization: 1.937
+> : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       > : 1.937       
+ Optimal score following high resolution, local optimization: 1.937
+Found 0 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 2803 hydrogens (0 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 65 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
