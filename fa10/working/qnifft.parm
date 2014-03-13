@@ -1,0 +1,6 @@
+grid=193
+charge=amb.crg.oxt
+radius=vdw.siz
+pdb_input=receptor.crg.lowdielectric.pdb
+pdb_output_file=qnifft.atm
+phi_output_file=qnifft.electrostatics.phi
