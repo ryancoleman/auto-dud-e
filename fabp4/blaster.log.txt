@@ -1,0 +1,183 @@
+verbose debugging requested, listing all options and arguments.
+option: addhLog , argument: addh.log
+option: addhydrogensDict , argument: reduce_wwPDB_het_dict.txt
+option: addhydrogensFirst , argument: True
+option: addhydrogensFirstOptions , argument:  -OH -HIS -ALLALT -ROTNH3 -Keep 
+option: addhydrogensOptions , argument:  -OH -HIS -ALLALT -NOROTNH3 -Keep -METALBump1.5 -NONMETALBump-5.0 
+option: addhydrogensProgram , argument: private/reduce
+option: bindsiteResidues , argument: rec.site
+option: boxLog , argument: makebox.log
+option: boxOutput , argument: box
+option: boxProgram , argument: scripts/makebox.smallokay.pl
+option: boxRec , argument: False
+option: chargeFile , argument: amb.crg.oxt
+option: chargedPdbOutput , argument: rec.crg.pdb
+option: defaultFiles , argument: /raid1/people/rgc/Source/rgc_src/blast_defaultfiles
+option: doLigandDesolvation , argument: False
+option: doReceptorDesolvation , argument: False
+option: dockbase , argument: /raid1/people/rgc/Source/Dock/dockenv/trunk
+option: elecapp , argument: False
+option: filterLog , argument: filter.log
+option: filterParams , argument: filt.params
+option: filterProgram , argument: bin/Linux/filt.exe
+option: flexibleReadme , argument: flexible.explanation.txt
+option: flexibleResidues , argument: None
+option: indockName , argument: INDOCK
+option: ligand , argument: xtal-lig.pdb
+option: ligandDesolv , argument: ligand.desolv
+option: ligdesDir , argument: ligdes
+option: ligdesProbeRadius , argument: 1.8
+option: ligdesTrimOut , argument: qnifft.ligdes.phi
+option: lowdielectricPdbLog , argument: lowdielectric.sph.pdb.log
+option: lowdielectricPdbOutput , argument: lowdielectric.sph.pdb
+option: lowdielectricSpheresLog , argument: lowdielectric.spheres.log
+option: lowdielectricSpheresOutput , argument: lowdielectric.sph
+option: lowdielectricSpheresProgram , argument: scripts/makespheres1.cli.pl
+option: matchingSpheresDist1 , argument: 1.5
+option: matchingSpheresDist2 , argument: 0.8
+option: matchingSpheresLog , argument: matching_spheres.log
+option: matchingSpheresMax , argument: 45
+option: matchingSpheresOutput , argument: matching_spheres.sph
+option: matchingSpheresProgram , argument: scripts/makespheres3.cli.pl
+option: minLowdielectricSpheres , argument: 25
+option: msLog , argument: dms.log
+option: msOutput , argument: rec.ms
+option: msProgram , argument: private/dms
+option: nearbyDir , argument: nearby
+option: nearbyOutside , argument: 3
+option: nearbySkip , argument: 3
+option: outputDir , argument: dockfiles
+option: partReadme , argument: part.explanation.txt
+option: pdbsphOutput , argument: xtal-lig.match.sph
+option: pdbsphProgram , argument: bin/Linux/pdbtosph
+option: qnifftGrid , argument: 193
+option: qnifftLog , argument: qnifft.log
+option: qnifftOut , argument: qnifft.electrostatics.phi
+option: qnifftPdbOut , argument: qnifft.atm
+option: qnifftProgram , argument: bin/Linux/qnifft22_193_pgf_32
+option: qnifftTrimOut , argument: trim.electrostatics.phi
+option: radiusFile , argument: vdw.siz
+option: recdesDir , argument: recdes
+option: recdesPdbOut , argument: qnifft.recdes.atm
+option: recdesProbeRadius , argument: 1.8
+option: recdesTrimOut , argument: qnifft.recdes.phi
+option: receptor , argument: rec.pdb
+option: receptorLowdielectricOutput , argument: receptor.crg.lowdielectric.pdb
+option: solvmapHeavyName , argument: .heavy
+option: solvmapHeavyRadius , argument: 1.8
+option: solvmapHydrogenName , argument: .hydrogen
+option: solvmapHydrogenRadius , argument: 1.0
+option: solvmapLog , argument: solvmap.log
+option: solvmapProbeRadius , argument: 1.4
+option: solvmapProgram , argument: bin/Linux/newsolv.sev
+option: sphgenOutput , argument: all_spheres.sph
+option: sphgenProgram , argument: bin/Linux/sphgen
+option: sphtopdbProgram , argument: etc/doshowsph.csh
+option: useFlex , argument: False
+option: useSge , argument: True
+option: vdwLog , argument: vdw.log
+option: vdwParameters , argument: vdw.parms.amb.mindock
+option: vdwPrefix , argument: vdw
+option: vdwProgram , argument: bin/Linux/chemgrid
+option: vdwProteinTable , argument: prot.table.ambcrg.ambH
+option: verbose , argument: True
+option: workingDir , argument: working
+copying input files into working directory, fixing columns rec.pdb xtal-lig.pdb working
+getting the most occupied position of each residue, renaming
+renaming HETATM to ATOM in the xtal-lig.pdb file
+	running add hydrogens program
+	command: cd working ; (/raid1/people/rgc/Source/Dock/dockenv/trunk/private/reduce -db reduce_wwPDB_het_dict.txt -OH -HIS -ALLALT -NOROTNH3 -Keep -METALBump1.5 -NONMETALBump-5.0 rec.pdb > rec.crg.pdb.fullh ) >& addh.log
+	removing extraneous output from rec.crg.pdb.fullh
+	command:cd working ; sed -i 's/\s*new\s*//g' rec.crg.pdb.fullh ; sed -i '/^USER.*/d' rec.crg.pdb.fullh
+	adding hydrogens ran OK
+	removing nonpolar hydrogens, renaming histidines, writing to working/rec.crg.pdb
+	running filter program to create list of binding site residues
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/bin/Linux/filt.exe < /raid1/people/rgc/Source/rgc_src/blast_defaultfiles/filt.params > filter.log
+	filter program produced a list of binding site residue OK
+	copying radii file /raid1/people/rgc/Source/rgc_src/blast_defaultfiles/radii  to:  working
+	running molecular surface program
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/private/dms rec.crg.pdb -a -i rec.site -g dms.log -p -n -o rec.ms
+	molecular surface program ran OK
+	running sphere generation program
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/bin/Linux/sphgen
+	sphere generation program ran OK
+	running pdb to sphere program on ligand atoms
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/bin/Linux/pdbtosph xtal-lig.pdb xtal-lig.match.sph
+	ligand atom to sphere program ran OK
+	running low dielectric spheres program
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres1.cli.pl xtal-lig.match.sph all_spheres.sph rec.crg.pdb lowdielectric.sph 25 >& lowdielectric.spheres.log
+	low dielectric spheres ran OK
+	running sphere to pdb program
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/etc/doshowsph.csh lowdielectric.sph 1 lowdielectric.sph.pdb >& lowdielectric.sph.pdb.log
+	sphere to pdb ran OK
+	running matching spheres program
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makespheres3.cli.pl 1.5 0.8 45 xtal-lig.match.sph all_spheres.sph rec.crg.pdb matching_spheres.sph >& matching_spheres.log
+	matching spheres ran OK
+	running makebox program
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/scripts/makebox.smallokay.pl matching_spheres.sph rec.crg.pdb box >& makebox.log
+	make box ran OK
+	running concatenate program
+	command: cd working ; cat rec.crg.pdb lowdielectric.sph.pdb > receptor.crg.lowdielectric.pdb
+	concatenate program ran OK
+	running qnifft program
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/bin/Linux/qnifft22_193_pgf_32 qnifft.parm >& qnifft.log
+	 qnifft.parm parameter file follows: 
+	grid=193
+	charge=amb.crg.oxt
+	radius=vdw.siz
+	pdb_input=receptor.crg.lowdielectric.pdb
+	pdb_output_file=qnifft.atm
+	phi_output_file=qnifft.electrostatics.phi
+	 qnifft.parm parameter file ends.
+	qnifft program ran OK
+	running vdw program
+	command: cd working ; /raid1/people/rgc/Source/Dock/dockenv/trunk/bin/Linux/chemgrid >& vdw.log
+	 INCHEM parameter file follows: 
+	rec.crg.pdb
+	prot.table.ambcrg.ambH
+	vdw.parms.amb.mindock
+	box
+	0.33
+	1
+	4
+	10
+	2.3 2.6
+	vdw
+	 INCHEM parameter file ends.
+	vdw program ran OK
+	making temporary solvmap directory working/heavy
+	copying files into working/heavy : rec.crg.pdb box
+	running ligand desolvation program
+	command: cd working/heavy ; /raid1/people/rgc/Source/Dock/dockenv/trunk/bin/Linux/newsolv.sev >& solvmap.log
+	 INSEV parameter file follows: 
+	rec.crg.pdb
+	ligand.desolv.heavy
+	1.60,1.65,1.90,1.90,1.90,1.60
+	1.4
+	2
+	box
+	1.8
+	INSEV parameter file ends.
+	ligand desolvation program ran OK
+	making temporary solvmap directory working/hydrogen
+	copying files into working/hydrogen : rec.crg.pdb box
+	running ligand desolvation program
+	command: cd working/hydrogen ; /raid1/people/rgc/Source/Dock/dockenv/trunk/bin/Linux/newsolv.sev >& solvmap.log
+	 INSEV parameter file follows: 
+	rec.crg.pdb
+	ligand.desolv.hydrogen
+	1.60,1.65,1.90,1.90,1.90,1.60
+	1.4
+	2
+	box
+	1.0
+	INSEV parameter file ends.
+	ligand desolvation program ran OK
+copying matching_spheres.sph into dockfiles
+copying trim.electrostatics.phi into dockfiles
+copying ligand.desolv.hydrogen into dockfiles
+copying ligand.desolv.heavy into dockfiles
+copying vdw.bmp into dockfiles
+copying vdw.vdw into dockfiles
+copying vdw.parms.amb.mindock into dockfiles
+	writing INDOCK file:  INDOCK
