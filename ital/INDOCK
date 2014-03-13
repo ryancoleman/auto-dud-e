@@ -1,0 +1,65 @@
+DOCK 3.7 parameter
+#####################################################
+# NOTE: split_database_index is reserved to specify a list of files
+ligand_atom_file               split_database_index
+#####################################################
+#                             OUTPUT
+output_file_prefix            test.
+#####################################################
+#                             MATCHING
+match_method                  2
+distance_tolerance            0.05
+match_goal                    5000
+distance_step                 0.05
+distance_maximum              0.5
+timeout                       10.0
+nodes_maximum                 4
+nodes_minimum                 4
+bump_maximum                  50.0
+bump_rigid                    50.0
+#####################################################
+#                             COLORING
+chemical_matching             no
+case_sensitive                no
+#####################################################
+#                             SEARCH MODE
+atom_minimum                  4
+atom_maximum                  100
+number_save                   1
+molecules_maximum            10000
+check_clashes                 yes
+do_premax                     no
+do_clusters                   no
+#####################################################
+#                             SCORING
+ligand_desolvation            volume
+#ligand_desolvation            qnifft
+vdw_maximum                   1.0e10
+electrostatic_scale           1.0
+vdw_scale                     1.0
+internal_scale                0.0
+#per_atom_scores               yes
+per_atom_scores               no
+receptor_desolv               no
+recdes_valence_penalty        no
+#####################################################
+# INPUT FILES / THINGS THAT CHANGE
+receptor_sphere_file          ../dockfiles/matching_spheres.sph
+vdw_parameter_file            ../dockfiles/vdw.parms.amb.mindock
+flexible_receptor             no
+total_receptors               1
+############## grids/data for one receptor
+rec_number                    1
+rec_group                     1
+rec_group_option              1
+solvmap_file                  ../dockfiles/ligand.desolv.heavy
+hydrogen_solvmap_file         ../dockfiles/ligand.desolv.hydrogen
+delphi_file                   ../dockfiles/trim.electrostatics.phi
+#recdes_file                   ../dockfiles/qnifft.recdes.phi
+#solvmap_file                  ../dockfiles/qnifft.ligdes.phi
+chemgrid_file                 ../dockfiles/vdw.vdw
+bumpmap_file                  ../dockfiles/vdw.bmp
+############## end of INDOCK
+delphi_nsize                  97
+ligdes_nsize                  97
+recdes_nsize                  97
