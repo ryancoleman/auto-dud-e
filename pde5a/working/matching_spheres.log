@@ -1,0 +1,21 @@
+There are 33 ligand heavy atoms
+Ligand center of coords (x y z): 1.43963636363636 67.0150606060606 83.5295151515152
+Using crystallographic ligand as spheres for output
+Starting number of spheres from sph/sph cluster 0: 1633
+FINISHED READING IN FILE sph/sph CLUSTER 0 
+Number of sphere points after cutting off spheres too far from center of ligand (10 angstroms): 963
+Number of spheres after removing too far (>7 angstroms) and too close to receptor (<1.2 angstroms): 963
+Number of spheres polar: 210, nonpolar: 601, out of current total: 963
+Extents of grid to search are X1 X2 Y1 Y2 Z1 Z2: -6.40205 11.41239 57.03006 77.00054 73.55659 93.41816
+Number of spheres after removing spheres too close to each other (approximately <1.5 angstroms): 297
+Number of spheres after second pass removing spheres absolutely <0.8 from each other: 247
+Crystallographic spheres are present, so doing continuity based on crystallographic spheres
+After continuity checking, number of spheres is: 225
+Spheres center of coords (x y z): 1.05043902222222 67.5000130666667 81.0319126222222
+Crystallographic ligand, so keeping spheres closest to ANY ligand atom, center of ligand (1/8), and center of spheres (1/8)
+Average weighted-distance for final elimination is: 5.09026586984663
+Final number of output spheres is: 45
+Number of polar spheres: 14
+Number of nonpolar spheres: 27
+Number of spheres that are near neither polar nor nonpolar receptor atoms: 4
+Final number of spheres that are from crystallographic ligand: 33
