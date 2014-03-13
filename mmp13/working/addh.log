@@ -1,0 +1,40 @@
+reduce: version 3.14 08/21/2008, Copyright 1997-2008, J. Michael Word
+Processing file: "rec.pdb"
+Database of HETATM connections: "reduce_wwPDB_het_dict.txt"
+VDW dot density = 16/A^2
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building His ring NH Hydrogens.
+Building or keeping OH & SH Hydrogens.
+Processing Met methyls.
+ERROR CTab(reduce_wwPDB_het_dict.txt): could not open
+SKIPPED H( A 172 HIS HE2 ): A 172 HIS NE2  bonds- A 461  ZNZN    (H bumps)
+SKIPPED H( A 187 HIS HE2 ): A 187 HIS NE2  bonds- A 461  ZNZN    (H bumps)
+SKIPPED H( A 200 HIS HD1 ): A 200 HIS ND1  bonds- A 461  ZNZN    (H bumps)
+SKIPPED H( A 222 HIS HE2 ): A 222 HIS NE2  bonds- A 460  ZNZN    (H bumps)
+SKIPPED H( A 226 HIS HE2 ): A 226 HIS NE2  bonds- A 460  ZNZN    (H bumps)
+SKIPPED H( A 232 HIS HE2 ): A 232 HIS NE2  bonds- A 460  ZNZN    (H bumps)
+*WARNING*: Residues THR 247  and PHE 252  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues THR 247  and PHE 252  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Res " ZN" not in HETATM Connection Database. Hydrogens not added.
+*WARNING*: Res " ZN" not in HETATM Connection Database. Hydrogens not added.
+ Singles(size 5): A 116 MET CE  : A 129 MET CE  : A 164 MET CE  : A 240 MET CE  
+  : A 247 THR OG1 
+ orientation 1: A 116 MET CE  :methyl  180: bump=0.000, HB=0.000, total=0.000
+ orientation 3: A 129 MET CE  :methyl  145: bump=-0.378, HB=0.000, total=-0.378
+ orientation 2: A 164 MET CE  :methyl -135: bump=-0.124, HB=0.000, total=-0.124
+ orientation 2: A 240 MET CE  :methyl -167: bump=-0.117, HB=0.000, total=-0.117
+ orientation 1: A 247 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+Found 252 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 963 hydrogens (0 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 4 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
