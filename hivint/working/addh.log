@@ -1,0 +1,107 @@
+reduce: version 3.14 08/21/2008, Copyright 1997-2008, J. Michael Word
+Processing file: "rec.pdb"
+Database of HETATM connections: "reduce_wwPDB_het_dict.txt"
+VDW dot density = 16/A^2
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building His ring NH Hydrogens.
+Building or keeping OH & SH Hydrogens.
+Processing Met methyls.
+ERROR CTab(reduce_wwPDB_het_dict.txt): could not open
+*WARNING*: Residues LYS 188  and GLY 193  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues LYS 188  and GLY 193  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ALA 76  and HIS 78  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ALA 76  and HIS 78  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ALA 91  and THR 93  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ALA 91  and THR 93  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues VAL 113  and THR 115  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues VAL 113  and THR 115  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues VAL 150  and GLU 152  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues VAL 150  and GLU 152  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues GLU 157  and LYS 159  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues GLU 157  and LYS 159  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues LYS 188  and GLY 193  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues LYS 188  and GLY 193  in chain  C appear unbonded 
+            and will be treated as a chain break
+ Singles(size 48): A  57 SER OG  : A  65 CYS SG  : A  66 THR OG1 : A  81 SER OG  
+  : A  83 TYR OH  : A  93 THR OG1 : A  97 THR OG1 : A  99 TYR OH  : A 112 THR OG1 
+  : A 115 THR OG1 : A 119 SER OG  : A 122 THR OG1 : A 123 SER OG  : A 124 THR OG1 
+  : A 125 THR OG1 : A 130 CYS SG  : A 143 TYR OH  : A 147 SER OG  : A 153 SER OG  
+  : A 154 MET CE  : A 174 THR OG1 : A 178 MET CE  : A 194 TYR OH  : A 195 SER OG  
+  : A 206 THR OG1 : C  57 SER OG  : C  65 CYS SG  : C  66 THR OG1 : C  81 SER OG  
+  : C  83 TYR OH  : C  93 THR OG1 : C  97 THR OG1 : C  99 TYR OH  : C 112 THR OG1 
+  : C 119 SER OG  : C 122 THR OG1 : C 123 SER OG  : C 124 THR OG1 : C 130 CYS SG  
+  : C 143 TYR OH  : C 147 SER OG  : C 153 SER OG  : C 154 MET CE  : C 174 THR OG1 
+  : C 178 MET CE  : C 194 TYR OH  : C 195 SER OG  : C 206 THR OG1 
+ orientation 1: A  57 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A  65 CYS SG  :   rot  180: bump=-1.774, HB=0.000, total=-1.774, BADBUMP
+ orientation 1: A  66 THR OG1 :   rot  120: bump=-0.006, HB=0.000, total=-0.006
+ orientation 1: A  81 SER OG  :   rot  -10: bump=-0.472, HB=1.057, total=0.586
+ orientation 8: A  83 TYR OH  :   rot   25: bump=-0.138, HB=0.962, total=0.824
+ orientation 1: A  93 THR OG1 :   rot  180: bump=-0.037, HB=0.355, total=0.318
+ orientation 3: A  97 THR OG1 :   rot   82: bump=0.000, HB=0.679, total=0.679
+ orientation 1: A  99 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 112 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 3: A 115 THR OG1 :   rot -120: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 119 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: A 122 THR OG1 :   rot   87: bump=-0.010, HB=1.233, total=1.223
+ orientation 1: A 123 SER OG  :   rot   80: bump=-0.051, HB=0.320, total=0.270
+ orientation 1: A 124 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 125 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 130 CYS SG  :   rot   80: bump=-0.059, HB=0.000, total=-0.059
+ orientation 8: A 143 TYR OH  :   rot  -26: bump=0.000, HB=0.126, total=0.126
+ orientation 2: A 147 SER OG  :   rot   86: bump=0.000, HB=1.082, total=1.082
+ orientation 2: A 153 SER OG  :   rot   81: bump=0.000, HB=0.400, total=0.400
+ orientation 3: A 154 MET CE  :methyl  144: bump=-1.465, HB=0.000, total=-1.465
+ orientation 1: A 174 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 4: A 178 MET CE  :methyl -128: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 194 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: A 195 SER OG  :   rot  180: bump=0.000, HB=0.098, total=0.098
+ orientation 2: A 206 THR OG1 :   rot   83: bump=0.000, HB=0.867, total=0.867
+ orientation 1: C  57 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C  65 CYS SG  :   rot  180: bump=-1.210, HB=0.000, total=-1.210
+ orientation 1: C  66 THR OG1 :   rot  120: bump=-0.072, HB=0.000, total=-0.072
+ orientation 1: C  81 SER OG  :   rot  -11: bump=-0.381, HB=1.238, total=0.857
+ orientation 8: C  83 TYR OH  :   rot   24: bump=-0.091, HB=0.883, total=0.792
+ orientation 3: C  93 THR OG1 :   rot  -30: bump=-0.069, HB=0.458, total=0.389
+ orientation 3: C  97 THR OG1 :   rot   82: bump=0.000, HB=0.463, total=0.463
+ orientation 1: C  99 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C 112 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C 119 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 3: C 122 THR OG1 :   rot   81: bump=-0.027, HB=1.312, total=1.285
+ orientation 1: C 123 SER OG  :   rot   80: bump=-0.046, HB=0.193, total=0.148
+ orientation 1: C 124 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C 130 CYS SG  :   rot  140: bump=-0.578, HB=0.000, total=-0.578
+ orientation 3: C 143 TYR OH  :   rot  149: bump=0.000, HB=0.060, total=0.060
+ orientation 2: C 147 SER OG  :   rot   90: bump=0.000, HB=0.496, total=0.496
+ orientation 3: C 153 SER OG  :   rot   52: bump=-0.000, HB=0.186, total=0.186
+ orientation 4: C 154 MET CE  :methyl -112: bump=-1.006, HB=0.000, total=-1.006
+ orientation 1: C 174 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: C 178 MET CE  :methyl -154: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C 194 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C 195 SER OG  :   rot  180: bump=0.000, HB=0.060, total=0.060
+ orientation 2: C 206 THR OG1 :   rot   77: bump=0.000, HB=0.895, total=0.895
+Found 0 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 2207 hydrogens (0 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 48 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
